@@ -1,3 +1,8 @@
+# Project Name
+
+This project is hosted on [Netlify](https://www.netlify.com/).
+
+**Check out the live demo: [Monster-Rolodex](https://fanciful-torrone-a5267e.netlify.app)**
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
