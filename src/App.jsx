@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from 'react';
 
-import CardListComponent from './components/cardList/CardListComponent';
+import CardListComponent from './components/card-list/CardListComponent';
 import SearchBoxComponent from './components/searchBox/SearchBoxComponent';
 import './App.css';
 
 function App() {
   const [monsters, setMonsters] = useState([]);
   const [searchInput, setSearchInput] = useState('');
+  console.log({setSearchInput});
 
   // JSON
   useEffect(() => {
@@ -35,6 +36,7 @@ function App() {
 
   return (
     <div className="App">
+      <h1 className="app-title">Monsters Rolodex</h1>
       <SearchBoxComponent onInputChange={handleSearchChange} />
       <CardListComponent monsters={filteredMonsters} />
     </div>

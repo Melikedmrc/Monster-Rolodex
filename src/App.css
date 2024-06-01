@@ -23,3 +23,9 @@ body {
 
   text-align: center;
 }
+
+.app-title {
+  font-family: 'Bigelow Rules', cursive;
+  font-size: 6rem;
+  margin-bottom: 10px;
+}
